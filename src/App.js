@@ -1,7 +1,7 @@
 import React from "react";
 import ".//components/FontAwesome/Icons"
-import MainContainer from "./components/MainContainer";
-import Socials from "./components/Socials";
+import MainContainer from "./components/Socials/MainContainer/MainContainer";
+import Socials from "./components/Socials/Socials";
 
 function App() {
   return (

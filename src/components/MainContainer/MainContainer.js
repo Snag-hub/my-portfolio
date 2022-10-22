@@ -1,7 +1,7 @@
 import React from "react";
 
-import Navbar from "./Navbar";
-import Header from "./Header";
+import Navbar from "../../Navbar/Navbar";
+import Header from "../../Header/Header";
 
 import "./MainContainer.css";
 
