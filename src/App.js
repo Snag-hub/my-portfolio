@@ -1,13 +1,13 @@
 import React from "react";
-import ".//components/FontAwesome/Icons"
-import MainContainer from "./components/Socials/MainContainer/MainContainer";
-import Socials from "./components/Socials/Socials";
+
+import MainContainer from ".//components/MainContainer/MainContainer";
+// import Socials from "./components/Socials/Socials";
 
 function App() {
   return (
     <div className="MainDiv">
       <MainContainer/>
-      <Socials/>
+      {/* <Socials/> */}
     </div>
   );
 }
