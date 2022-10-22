@@ -1,6 +1,5 @@
 import React from "react";
-
-
+import {Link} from "react-router-dom";
 import "./Navbar.css";
 
 
@@ -10,31 +9,29 @@ const Navbar = () => {
       <div className="navbar">
         <div className="navbar-links">
           <ul>
-          <li>
-              <div className="nav-items">
-                <a href="/" className="skillBtn">?Skills</a>
-              </div>
-            </li>
-            <li>
-              <div className="nav-items">
-                <a href="/" className="experienceBtn">?Experience</a>
-              </div>
-            </li>
-            <li>
-              <div className="nav-items">
-                <a href="/" className="projectBtn">?Projects</a>
-              </div>
-            </li>
-            <li>
-              <div className="nav-items">
-                <a href="/" className="contactBtn">?Contacts</a>
-              </div>
-            </li>
+            <CustomLink to="/skills">?Skills</CustomLink>
+            <CustomLink to="/experience">?Experience</CustomLink>
+            <CustomLink to="/projects">?Projects</CustomLink>
+            <CustomLink to="/contact">?Contact</CustomLink>
           </ul>
         </div>
       </div>
     </nav>
   );
 };
+
+function CustomLink({ to, children, ...props }) {
+  // const path = "window.location.pathname";
+  return (
+    <li >
+      <div className="nav-items">
+        <Link to={to} {...props}>
+        {" "}
+        {children}{" "}
+        </Link>
+      </div>
+    </li>
+  );
+}
 
 export default Navbar;

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -7,7 +7,11 @@ const Header = () => {
     <div className="header-container">
       <div className="header-content">
         <div className="header-logo">
-          <h1>Snag.dev</h1>
+          <h1>
+            <Link to="/">
+            Snag.dev
+            </Link>
+            </h1>
         </div>
         <div className="resume-button">
           <button>Resume</button>

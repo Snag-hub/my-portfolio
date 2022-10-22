@@ -29,4 +29,43 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+.App{
+  position: relative;
+}
+
+.main-container{
+  height: 80vh;
+  border: 3px solid green;
+  margin-top: 10vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.main-container-navigations{
+  position: absolute;
+  top: 18rem;
+  left: 20px;
+}
+.header-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.main-container-content{
+  justify-content: center;
+  align-items: center;
+}
+.main-container-content {
+  max-width: 70%;
+  margin-left: 20%;
+  margin-top: 6rem;
+  height: 75%;
+}
 
