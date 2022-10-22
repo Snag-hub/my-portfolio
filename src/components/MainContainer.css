@@ -1,0 +1,35 @@
+.container{
+  position: relative;
+}
+
+.main-container{
+  height: 80vh;
+  border: 3px solid green;
+  margin-top: 10vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+}
+.main-container-content{
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container-navigations{
+  position: absolute;
+  top: 15rem;
+  left: 20px;
+
+
+}
+.header-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}

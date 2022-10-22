@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=Maven+Pro&family=Nabla&family=Peralta&family=Play&family=Roboto:wght@300;400;500&family=Silkscreen&family=Source+Code+Pro&display=swap");
+
+.header-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5rem;
+}
+.header-container .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.header-container .header-logo {
+  font-family: "Silkscreen", cursive;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+.resume-button button {
+  color: black;
+  background: transparent;
+  cursor: pointer;
+  font-family: "peralta", cursive;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-size: 1.2rem;
+  /* border: 2px solid lime; */
+  letter-spacing: 2px;
+  box-shadow: 0px 0px 10px 0 lime;
+}
+.resume-button button:hover {
+  box-shadow: 0 0 20px 4px lime;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}

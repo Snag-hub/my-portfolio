@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400&family=Maven+Pro&family=Nabla&family=Peralta&family=Play&family=Roboto:wght@300;400;500&family=Silkscreen&family=Source+Code+Pro&display=swap');
+
+
+.navbar-links ul li .nav-items{
+    width: 300px;
+    height: 50px;
+    padding: 10px 20px;
+    
+}
+.navbar-links ul li .nav-items a{
+    font-family: 'Nabla', cursive;
+    font-size: 22px;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+
+
+}
+.navbar-links ul li .nav-items a:hover{
+    font-size: 28px;
+    letter-spacing: 5px;
+        /* make transition slow:;
+    */transition: all 0.4s ease-in-out;
+}
