@@ -35,7 +35,6 @@ body{
 
 .main-container{
   height: 80vh;
-  border: 3px solid green;
   margin-top: 10vh;
 
   display: flex;
@@ -48,7 +47,7 @@ body{
 
 .main-container-navigations{
   position: absolute;
-  top: 18rem;
+  top: 10rem;
   left: 20px;
 }
 .header-container{

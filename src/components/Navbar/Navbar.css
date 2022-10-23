@@ -5,15 +5,21 @@
     width: 400px;
     height: 50px;
     padding: 10px 20px;
-    
+    margin: 20px;
 }
 .navbar-links ul li .nav-items a{
     font-family: 'Nabla', cursive;
     font-size: 22px;
     letter-spacing: 3px;
     padding: 10px 20px;
+    width: 300px;
+    
+
 }
 .navbar-links ul li .nav-items a:hover{
+    background-color: #1e1e1e;
+    width: 100%;
+    border-radius: 10px;
     font-size: 28px;
     letter-spacing: 5px;
     transition: all 0.7s ease-in-out;

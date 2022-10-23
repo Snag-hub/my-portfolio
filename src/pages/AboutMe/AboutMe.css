@@ -19,13 +19,15 @@ font-family: 'Source Code Pro', monospace;
   height: 4rem;
   padding: 20px;
   text-align: center;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Silkscreen', sans-serif;
   text-transform: uppercase;
+  margin-bottom: 2.5rem;
+
 }
 
 .about-me-content .aboutMe h1{
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 3rem;
   letter-spacing: 5px;
   color: #fff;
   text-shadow: 1px 1px 2px black;

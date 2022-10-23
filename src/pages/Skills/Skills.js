@@ -2,49 +2,47 @@ import React from "react";
 
 import "./Skills.css";
 
+let skillTitle = "< Skills />";
+const data = [
+  {
+    skillsTitle: "< Programming Languages />",
+    Languages: ["JavaScript", "C#", "Java", "TypeScript", "HTML", "CSS"],
+  },
+  {
+    skillsTitle: "< Databases & Tools />",
+    Languages: ["MySQL", "SQL Server", "SQL", "MongoDB"]
+  },
+  {
+    skillsTitle: "< Frameworks & Libraries />",
+    Languages: [
+      "React","Node","TailWind","Bootstrap","Material UI",".NET","ASP.NET"
+    ]
+  },
+  {
+    skillsTitle: "< Tools and Platforms />",
+    Languages: ["Git", "GitHub", "WordPress", "Heroku", "Firebase"],
+  },
+];
+
 const Skills = () => {
   return (
     <>
       <div className="skills-container">
         <div className="skills-content">
-          <h1>Skills</h1>
+          <h1>{skillTitle}</h1>
         </div>
         <div className="skills-content-container">
-          <div className="skills-content-container-items">
-            <h1>Front-End</h1>
-            <div className="skills-content-container-item">
-              <h2>HTML</h2>
-              <h2>CSS</h2>
-              <h2>JavaScript</h2>
-              <h2>React</h2>
-              <h2>BootStrap</h2>
-              <h2>TailWind</h2>
-            </div>
-          </div>
-          <div className="skills-content-container-items">
-            <h1>Back-End</h1>
-            <div className="skills-content-container-item">
-              <h2>Node.js</h2>
-              <h2>Express.js</h2>
-              <h2>MySQL</h2>
-              <h2>MongoDB</h2>
-              <h2>GraphQL</h2>
-              <h2>C#</h2>
-              <h2>Java</h2>
-            </div>
-          </div>
-          <div className="skills-content-container-items">
-            <h1>Tools</h1>
-            <div className="skills-content-container-item">
-              <h2>Git</h2>
-              <h2>GitHub</h2>
-              <h2>VS Code</h2>
-              <h2>Postman</h2>
-              <h2>Heroku</h2>
-              <h2>Netlify</h2>
+          {data.map((item, i) => (
+            <div className="skills-content-container-items">
+              <h1>{item.skillsTitle}</h1>
+              <div className="skills-content-container-item">
+                {item.Languages.map((item, i) => (
+                  <h2>{item}</h2>
+                ))}
               </div>
+            </div>
+          ))}
         </div>
-          </div>
       </div>
     </>
   );
