@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+ 
 import "./Header.css";
+
 
 const Header = () => {
   return (
@@ -14,7 +17,7 @@ const Header = () => {
             </h1>
         </div>
         <div className="resume-button">
-          <button>Resume</button>
+          <button >Resume</button>
         </div>
       </div>
     </div>

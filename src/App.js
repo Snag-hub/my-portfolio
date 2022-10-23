@@ -3,7 +3,7 @@ import {Route, Routes} from "react-router-dom";
 
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
-
+import Socials from "./components/Socials/Socials";
 import AboutMe from "./pages/AboutMe/AboutMe";
 import Skills from "./pages/Skills/Skills";
 import Projects from "./pages/Project/Project";
@@ -31,6 +31,7 @@ function App() {
             </Routes>
           </div>
         </div>
+        <Socials />
       </div>
     </>
   );

@@ -16,76 +16,70 @@ font-family: 'Source Code Pro', monospace;
   color: aliceblue;
   box-sizing: border-box;
 }
+
 .experience-content{
   text-align: center;
+  margin-bottom: 3rem;
   
-}
-.experience-content .experience{
-  margin-bottom: 2rem;
 }
 .experience-content h1{
   font-size: 3rem;
   font-family: 'Silkscreen', sans-serif;
   text-transform: uppercase;
 }
+
 .experience-content-container{
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  
 }
-.experience-content-item{
+.experience-content-container-items{
   width: 500px;
   height: 450px;
   background-color: #1e1e1e;
   border-radius: 10px;
-  padding: 1rem;
+  padding: 1.3rem;
   margin: 1rem;
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
 }
-.experience-content-item .experience-content-item-title h1{
+
+.experience-content-container-items h1{
   width: 100%;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-family: 'Silkscreen', sans-serif;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
   text-align: center;
 }
-.experience-content-item .experience-content-item-desc{
-  text-align: start;
-  font-size: 1.2rem;
-
-}
-.experience-content-item .experience-content-item-desc h3{
-  font-size: 1.5rem;
-  font-family: 'Chakra Petch', sans-serif;
-  margin-bottom: 1rem;
-  color: #d3d3d3b2;
-  letter-spacing: 2px;
-
-}
-.experience-content-item .experience-content-item-desc h4{
-  font-size: 1.2rem;
-  font-family: 'Chakra Petch', sans-serif;
-  margin-bottom: 1rem;
-  letter-spacing: 2px;
-}
-.experience-content-item .experience-content-item-desc p{
-  font-size: 1rem;
-  font-family: 'Chakra Petch', sans-serif;
-  margin-bottom: 1rem;
-  letter-spacing: 1.4px;
+.experience-content-container-items h2{
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #f0f0f0d0;
 }
-.experience-content-item .experience-content-item-desc ul{
+.experience-content-container-items h3{
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+.experience-content-container-item-responsibilities li{
   font-family: 'Chakra Petch', sans-serif;
   letter-spacing: 1.4px;
-  text-transform: uppercase;
-  width: 425px;
+  color: #f0f0f0d0;
   margin: 0 auto;
-}
-.experience-content-item .experience-content-item-desc ul li{
   font-size: 15px;
   text-align: start;
   margin-bottom: 0.5rem;
   list-style: disc;
+  text-transform: uppercase;
+  width: 425px;
 }

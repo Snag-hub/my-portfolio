@@ -12,7 +12,7 @@ const Navbar = () => {
             <CustomLink to="/skills">?Skills</CustomLink>
             <CustomLink to="/experience">?Experience</CustomLink>
             <CustomLink to="/projects">?Projects</CustomLink>
-            <CustomLink to="/contact">?Contact</CustomLink>
+            {/* <CustomLink to="/contact">?Contact</CustomLink> */}
           </ul>
         </div>
       </div>

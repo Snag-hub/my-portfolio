@@ -1,9 +1,20 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedinIn,
+  faTwitter,
+  faInstagram,
+  faGithub,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 import "./Socials.css";
+let youtube= "  YouTube";
+let LinkedIn = "  LinkedIn";
+let Twitter = "  Twitter";
+let Instagram = "  Instagram";
+let Github = "  Github";
 
 const Socials = () => {
   return (
@@ -14,33 +25,41 @@ const Socials = () => {
             <ul>
               <li>
                 <div className="socials-item">
-                  <a href="/">
-                    LinkedIn
-                    <FontAwesomeIcon icon="faLinkedinIn" />
+                  <a href="https://www.linkedin.com/in/syednadeemhussain/" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faLinkedinIn} />
+                    {LinkedIn}
                   </a>
                 </div>
+              </li>
+              <li>
                 <div className="socials-item">
-                  <a href="/">
-                    Twitter
-                    <FontAwesomeIcon icon="faTwitter" />
+                  <a href="https://twitter.com/therealgeelani" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faTwitter} />
+                    {Twitter}
                   </a>
                 </div>
+              </li>
+              <li>
                 <div className="socials-item">
-                  <a href="/">
-                    Instagram
-                    <FontAwesomeIcon icon="faInstagram" />
+                  <a href="https://www.instagram.com/anonymous.programmer/" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faInstagram} />
+                    {Instagram}
                   </a>
                 </div>
+              </li>
+              <li>
                 <div className="socials-item">
-                  <a href="/">
-                    Github
-                    <FontAwesomeIcon icon="faGithub" />
+                  <a href="https://github.com/Snag-hub" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} />
+                    {Github}
                   </a>
                 </div>
+              </li>
+              <li>
                 <div className="socials-item">
-                  <a href="/">
-                    YouTube
-                    <FontAwesomeIcon icon="faYoutube" />
+                  <a href="https://www.youtube.com/channel/UChTEvrP_8_0MjAeTnq3vbzw" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faYoutube} />
+                    {youtube}
                   </a>
                 </div>
               </li>
